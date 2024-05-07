@@ -12,9 +12,6 @@ class DXFGeneratorApp:
         self.master.title("DXF Text Generator")
         self.setup_ui()
 
-        # Set the window icon; adjust the path to your icon file
-        #self.master.iconbitmap('dxflogo.ico')
-
     def setup_ui(self):
         frame = ttk.Frame(self.master)
         frame.pack(padx=10, pady=10)
@@ -100,6 +97,5 @@ def run_app():
     root = tk.Tk()
     app = DXFGeneratorApp(root)
     root.mainloop()
-
-# Uncomment the line below in your environment to run the application
+    
 run_app()
